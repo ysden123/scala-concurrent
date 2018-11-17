@@ -34,6 +34,9 @@ object FutureCallBacEx2 extends App with LazyLogging {
   // 2nd callback
   urlSpec foreach { lines => logger.info(find(lines, "password")) }
 
+  // Exception handler
+  urlSpec.failed.foreach(ex => logger.error(s"Exception occurred: ${ex.getMessage}", ex))
+
   logger.info("callback registered, continuing with other work")
 
   Thread.sleep(2000)
