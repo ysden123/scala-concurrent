@@ -1,2 +1,3 @@
 # scala-concurrent
-Learning concurrent programming in Scala
+
+Exercises for "Learning concurrent programming in Scala, 2nd edition" by Aleksandar Prokopec
