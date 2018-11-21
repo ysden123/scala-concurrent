@@ -30,4 +30,8 @@ lazy val chapter4 = (project in file("chapter4"))
 		name := "chapter4"
 	)
 
-
+lazy val chapter5 = (project in file("chapter5"))
+	.settings(commonSettings: _*)
+	.settings(
+		name := "chapter5"
+	)
