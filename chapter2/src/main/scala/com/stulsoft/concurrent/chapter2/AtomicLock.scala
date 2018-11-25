@@ -8,7 +8,8 @@ import com.typesafe.scalalogging.LazyLogging
 
 import scala.concurrent.ExecutionContext
 
-/**
+/** Use the AtomicBoolean
+  *
   * @author Yuriy Stul
   */
 object AtomicLock extends App with LazyLogging {
